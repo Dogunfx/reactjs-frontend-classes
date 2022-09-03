@@ -5,11 +5,6 @@ import styles from "./button.module.css";
 export default function({ disabled }) {
   const [count, setCount] = useState(0);
 
-  var ob1 = {
-    name: "john",
-    age: 78,
-  };
-
   const handleClick = () => {
     var newCount = count + 1;
     setCount(newCount);
