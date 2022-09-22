@@ -1,0 +1,24 @@
+button {
+    background: transparent;
+    display: flex;
+    border: none;
+    border: 1px solid grey;
+    /* padding: 5px 15px; */
+    border-radius: 3px;
+    align-items: center;
+    cursor: pointer;
+}
+
+button i {
+    flex: 1;
+    padding: 5px 10px;
+}
+
+button span {
+    flex: 1;
+    padding: 5px 15px;
+}
+
+.inputs{
+    
+}
